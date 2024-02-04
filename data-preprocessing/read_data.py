@@ -3,7 +3,6 @@ from utils import *
 def read_file(file_path):
     try:
         with open(file_path, 'r') as file:
-            # Read all lines and store them in a list
             data = []
             lines = file.readlines()
 
